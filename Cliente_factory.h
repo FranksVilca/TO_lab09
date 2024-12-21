@@ -4,6 +4,7 @@
 #include "Cliente.h"
 #include <QString>
 
+//CleinteFactory.h
 class ClienteFactory {
 public:
     virtual Cliente* crearCliente(int id, const QString& nombre, const QString& direccion,

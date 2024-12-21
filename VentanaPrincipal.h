@@ -10,7 +10,9 @@
 #include <QMessageBox>
 #include <QStringList>
 
+//VentanaPrincipal.h
 namespace Ui {
+
 class VentanaPrincipal;
 }
 

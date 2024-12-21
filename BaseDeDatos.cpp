@@ -2,6 +2,7 @@
 #include <QFile>
 #include <QTextStream>
 
+//BaseDeDatos.cpp
 BaseDeDatos* BaseDeDatos::instancia = nullptr;
 
 BaseDeDatos* BaseDeDatos::getInstance() {

@@ -4,6 +4,7 @@
 #include "Cliente.h"
 #include <vector>
 #include <QString>
+//Basededatos.h
 
 class BaseDeDatos {
 public:

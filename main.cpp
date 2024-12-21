@@ -1,6 +1,8 @@
 #include <QApplication>
 #include "VentanaPrincipal.h"
 #include "BaseDeDatos.h"
+#include "winUsuario.h"
+
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -9,7 +11,7 @@ int main(int argc, char *argv[]) {
     BaseDeDatos::getInstance()->cargarClientes("csv/clientes.csv");
 
     // Crear e iniciar la ventana principal
-    VentanaPrincipal ventana;
+    Form ventana;
     ventana.show();
 
     return app.exec();

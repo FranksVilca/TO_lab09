@@ -1,6 +1,7 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
 
+//Singleton.h
 class Singleton {
 public:
     // Método para obtener la instancia única de la clase

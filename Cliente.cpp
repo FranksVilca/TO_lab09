@@ -1,5 +1,6 @@
 #include "Cliente.h"
 
+//Cliente.cpp
 Cliente::Cliente(int id, QString nombre, QString direccion, QString telefono, QString email, int edad)
     : id(id), nombre(nombre), direccion(direccion), telefono(telefono), email(email), edad(edad) {}
 

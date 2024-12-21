@@ -20,7 +20,9 @@ SOURCES += \
     Cliente_factory.cpp \
     VentanaPrincipal.cpp \
     main.cpp \
-    singleton.cpp
+    singleton.cpp \
+    winUsuario.cpp \
+    winoperacion.cpp
 
 HEADERS += \
     BaseDeDatos.h \
@@ -28,10 +30,14 @@ HEADERS += \
     Cliente_factory.h \
     VentanaPrincipal.h \
     singleton.h \
-    ui_VentanaPrincipal.h
+    ui_VentanaPrincipal.h \
+    winUsuario.h \
+    winoperacion.h
 
 
-FORMS += VentanaPrincipal.ui
+FORMS += VentanaPrincipal.ui \
+    winUsuario.ui \
+    winoperacion.ui
 
 
 # Default rules for deployment.

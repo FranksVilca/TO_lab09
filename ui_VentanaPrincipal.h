@@ -11,6 +11,7 @@
 
 QT_BEGIN_NAMESPACE
 
+//Ui_VentanaPrincipal.h
 class Ui_VentanaPrincipal
 {
 public:

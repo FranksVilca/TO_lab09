@@ -2,6 +2,7 @@
 #define CLIENTE_H
 
 #include <QString>
+//Cliente.h
 
 class Cliente {
 public:
