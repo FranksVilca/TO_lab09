@@ -1,0 +1,3 @@
+tarjeta_id,cuenta_id,numero_tarjeta,tipo_tarjeta,fecha_vencimiento,estado
+1,10001,1234-5678-9876-5432,Débito,2027-12-01,Activa
+2,10002,2345-6789-8765-4321,Crédito,2025-11-15,Inactiva
